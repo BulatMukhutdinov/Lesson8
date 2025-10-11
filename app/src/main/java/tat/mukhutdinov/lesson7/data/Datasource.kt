@@ -1,6 +1,7 @@
 package tat.mukhutdinov.lesson7.data
 
-import tat.mukhutdinov.lesson7.model.Affirmation
+//import tat.mukhutdinov.lesson7.R
+//import tat.mukhutdinov.lesson7.model.Affirmation
 
 /**
  * [Datasource] generates a list of [Affirmation]
