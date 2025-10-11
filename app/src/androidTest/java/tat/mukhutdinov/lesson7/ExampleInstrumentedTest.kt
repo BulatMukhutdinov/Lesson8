@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson8
+package tat.mukhutdinov.lesson7
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
