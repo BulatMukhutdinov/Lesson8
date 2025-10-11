@@ -23,7 +23,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import tat.mukhutdinov.lesson7.data.Datasource
+import tat.mukhutdinov.lesson7.data.DataSource
 import tat.mukhutdinov.lesson7.model.Affirmation
 import tat.mukhutdinov.lesson7.ui.theme.AffirmationsTheme
 
@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AffirmationsTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    AffirmationsApp(
+                    TopicApp(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -47,7 +47,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun AffirmationsApp(modifier: Modifier = Modifier) {
     AffirmationList(
-        affirmationList = Datasource().loadAffirmations(),
+        affirmationList = DataSource.affirmations,
         modifier = modifier
     )
 }
