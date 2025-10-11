@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "tat.mukhutdinov.lesson8"
+    namespace = "tat.mukhutdinov.Lesson7"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "tat.mukhutdinov.lesson8"
+        applicationId = "tat.mukhutdinov.Lesson7"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson8
+package tat.mukhutdinov.Lesson7
 
 import org.junit.Test
 

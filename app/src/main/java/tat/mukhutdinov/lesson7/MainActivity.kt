@@ -1,4 +1,4 @@
-package tat.mukhutdinov.lesson8
+package tat.mukhutdinov.lesson7
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import tat.mukhutdinov.lesson8.ui.theme.AffirmationsTheme
+import tat.mukhutdinov.lesson7.ui.theme.AffirmationsTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
